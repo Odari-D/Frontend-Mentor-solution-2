@@ -3,7 +3,67 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    text-align: center;
 
+.container{
+text-align: center;
+background-color: #fff;
+}
+/* The first section containing the site logo and the button  */
+header.container-1{
+    background-image:  url("/images/bg-header-desktop.png");
+background-color: #fff;
+
+}
+.header-container{
+    padding: 5em;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+h1.big{
+    padding-bottom: 10px;
+}
+.button{
+    margin-top: 24px;
+}
+ button.btn{
+    margin: 15px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: none;
+    
+    }
+    #btn-1{
+        background-color: hsl(171, 66%, 44%) ;
+    }
+    #btn-2{
+        background-color: hsl(233, 100%, 69%);
+    }
+button a{
+    text-decoration: none;
+    color:    #fff;
+}
+/* second section containing containing a heading and a paragraph 
+ */
+ section.container-2{
+     margin-bottom: 40px ;
+     line-height: 20px;
+    }
+ 
+ .container-2 h2{
+     padding: 15px;
+ }
+ /* section containing tthe computer  */
+  section.container-3{
+      display: grid;
+      /* grid-gap: 20px; */
+      grid-template-columns: 50vw 50vw;
+  }
+  img.figure{
+    
+  }
+.container-3 div{
+    text-align: start;
 }
