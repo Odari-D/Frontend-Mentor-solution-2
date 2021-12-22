@@ -7,11 +7,11 @@
 .container{
 text-align: center;
 background-color: #fff;
+font-size: 18px;
 }
 /* The first section containing the site logo and the button  */
 header.container-1{
-    background-image:  url("/images/bg-header-desktop.png");
-background-color: #fff;
+    /* background-image:  url("/images/bg-header-desktop.png"); */
 
 }
 .header-container{
@@ -35,10 +35,16 @@ h1.big{
     border: none;
     
     }
-    #btn-1{
+    #bt-1{
         background-color: hsl(171, 66%, 44%) ;
     }
-    #btn-2{
+   #bt-2{
+        background-color: hsl(233, 100%, 69%);
+    }
+     #btn-1{
+        background-color: hsl(171, 66%, 44%) ;
+    }
+   #btn-2{
         background-color: hsl(233, 100%, 69%);
     }
 button a{
@@ -55,15 +61,103 @@ button a{
  .container-2 h2{
      padding: 15px;
  }
- /* section containing tthe computer  */
+ /* section containing the computer  */
   section.container-3{
-      display: grid;
-      /* grid-gap: 20px; */
-      grid-template-columns: 50vw 50vw;
+    display: flex;
+    margin-bottom: 8em;
   }
-  img.figure{
-    
-  }
+ 
 .container-3 div{
     text-align: start;
+    margin-left: 5em;
+    padding-top: 3em;
+    line-height: 1.5em;
 }
+.container-3 div p{
+    margin-bottom: 4em;
+}
+/* container 4  */
+section.container-4{
+    margin-bottom: 5em;
+    line-height: 1.5em;
+}
+.container-4 .medium{
+    margin-bottom: 10px;
+}
+/* container-5 */
+section.container-5{
+    margin: 2em 0;
+    line-height: 2em;
+}
+/* the cards */
+div.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+div.card{
+line-height: 1.5em;
+}
+.icon{
+    margin-bottom: 1.5em;
+}
+/* company logos */
+div.clients{
+    display: flex;
+    justify-content:  space-around;
+    margin: 5em 0;
+}
+div.clients img{
+    font-size: 70px;
+}
+/* container-6  */
+section.container-6{
+    line-height: 1.5em;
+    margin-bottom: 3em;
+
+}
+.container-6 .medium{
+    margin-bottom: 9px;
+}
+/* The footer  containing the links */
+footer.links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    height: 20%;
+    background-color: hsl(201, 11%, 95%);
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+
+}
+.site-logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+footer div.other-links a{
+    text-decoration: none;
+    color:  hsl(200, 4%, 27%);
+    padding: 20px;
+}
+div.other-links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+div.social-links{
+    display: flex;
+    align-items: center;
+
+}
+div .social{
+    margin: 1em;
+}
+footer p.attribution{
+    text-align: center;
+    /* text-decoration: none; */
+
+}
+
