@@ -11,7 +11,7 @@ font-size: 18px;
 }
 /* The first section containing the site logo and the button  */
 header.container-1{
-    background-image:  url("/images/bg-header-desktop.png");
+    background-image:  url("images/bg-header-desktop.png");
 
 }
 .header-container{
@@ -145,11 +145,16 @@ div.other-links{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    justify-content: center;
+    /* justify-items: center; */
+}
+a.other-page{
+    display: grid;
+    justify-self: start;
 }
 div.social-links{
     display: flex;
     align-items: center;
+    margin-left: 40px;
 
 }
 div .social{
@@ -157,7 +162,6 @@ div .social{
 }
 footer p.attribution{
     text-align: center;
-    /* text-decoration: none; */
 
 }
 
