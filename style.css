@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans&family=Poppins&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+p.description{
+    color:hsl(201, 11%, 66%);
+}
+.big, .medium, .small{
+    color:hsl(201, 11%, 30%);
+
 }
 
 .container{
@@ -10,18 +21,19 @@ background-color: #fff;
 font-size: 18px;
 }
 /* The first section containing the site logo and the button  */
-header.container-1{
+div.logo-container{
     background-image:  url("images/bg-header-desktop.png");
-
-}
-.header-container{
-    padding: 5em;
+    width: 100%;
 }
 .logo{
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+    margin: 90px  0  70px;
 }
+.header-container{
+    margin-bottom: 60px;
+}
+
 h1.big{
     padding-bottom: 10px;
 }
@@ -35,26 +47,21 @@ h1.big{
     border: none;
     
     }
-    #bt-1{
+ 
+     .btn-1{
         background-color: hsl(171, 66%, 44%) ;
-    }
-   #bt-2{
-        background-color: hsl(233, 100%, 69%);
-    }
-     #btn-1{
-        background-color: hsl(171, 66%, 44%) ;
-    }
-   #btn-2{
-        background-color: hsl(233, 100%, 69%);
-    }
-button a{
-    text-decoration: none;
     color:    #fff;
-}
+
+    }
+   .btn-2{
+        background-color: hsl(233, 100%, 69%);
+    color:    #fff;
+
+    }
 /* second section containing containing a heading and a paragraph 
  */
  section.container-2{
-     margin-bottom: 40px ;
+     margin-bottom: 60px ;
      line-height: 20px;
     }
  
