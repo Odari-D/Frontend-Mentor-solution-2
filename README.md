@@ -5,14 +5,9 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
-
-### Screenshot
-
-![](./images/desktop-preview.jpg)
 
 ### Links
 
@@ -29,6 +24,5 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - Mobile-first workflow
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Odari-D)
-- Twitter - [@yourusername](https://www.twitter.com/DerrickAtongo)
-*
+- Frontend Mentor - [@Odari-D](https://www.frontendmentor.io/profile/Odari-D)
+- Twitter - [@DerrickAtongo](https://www.twitter.com/DerrickAtongo)
