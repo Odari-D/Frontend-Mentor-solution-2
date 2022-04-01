@@ -167,8 +167,7 @@ div.social-links{
 div .social{
     margin: 1em;
 }
-footer p.attribution{
-    text-align: center;
-
+div.attribution{
+    justify-self: center;
 }
 
