@@ -9,7 +9,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Author](#author)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://odari-d.github.io/Frontend-Mentor-solution-2/  )
 
 
 ### Built with
