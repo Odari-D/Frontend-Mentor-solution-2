@@ -1,187 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans&family=Poppins&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans&family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-p.description{
-    color:hsl(201, 11%, 66%);
+p.description {
+  color: hsl(201, 11%, 66%);
 }
-.big, .medium, .small{
-    color:hsl(201, 11%, 30%);
+.big,
+.medium,
+.small {
+  color: hsl(201, 11%, 30%);
+}
 
-}
-
-.container{
-text-align: center;
-background-color: #fff;
-font-size: 18px;
+.container {
+  text-align: center;
+  background-color: #fff;
+  font-size: 18px;
 }
 /* The first section containing the site logo and the button  */
-div.logo-container{
-    background-image:  url("images/bg-header-desktop.png");
-    width: 100%;
+div.logo-container {
+  background-image: url("images/bg-header-desktop.png");
+  width: 100%;
 }
-.logo{
-    width: 90px;
-    height: 90px;
-    margin: 90px  0  70px;
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: 90px 0 70px;
 }
-.header-container{
-    margin-bottom: 60px;
+.header-container {
+  margin-bottom: 60px;
 }
 
-h1.big{
-    padding-bottom: 10px;
+h1.big {
+  padding-bottom: 10px;
 }
-.button{
-    margin-top: 24px;
+.button {
+  margin-top: 24px;
 }
- button.btn{
-    margin: 15px;
-    border-radius: 40px;
-    padding: 10px 20px;
-    border: none;
-    
-    }
- 
-     .btn-1{
-        background-color: hsl(171, 66%, 44%) ;
-    color:    #fff;
+button.btn {
+  margin: 15px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  border: none;
+}
 
-    }
-    .btn-1:hover{
-        opacity: 0.6;
-    }
-   .btn-2{
-        background-color: hsl(233, 100%, 69%);
-    color:    #fff;
-
-    }
-    .btn-2:hover{
-        opacity: 0.6;
-    }
+.btn-1 {
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+}
+.btn-1:hover {
+  opacity: 0.6;
+}
+.btn-2 {
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+}
+.btn-2:hover {
+  opacity: 0.6;
+}
 
 /* second section containing containing a heading and a paragraph 
  */
- section.container-2{
-     margin-bottom: 60px ;
-     line-height: 20px;
-    }
- 
- .container-2 h2{
-     padding: 15px;
- }
- /* section containing the computer  */
-  section.container-3{
-    display: flex;
-    margin-bottom: 8em;
-  }
- 
-.container-3 div{
-    text-align: start;
-    margin-left: 5em;
-    padding-top: 3em;
-    line-height: 1.5em;
+section.container-2 {
+  margin-bottom: 60px;
+  line-height: 20px;
 }
-.container-3 div p{
-    margin-bottom: 4em;
+
+.container-2 h2 {
+  padding: 15px;
+}
+/* section containing the computer  */
+section.container-3 {
+  display: flex;
+  margin-bottom: 8em;
+}
+
+.container-3 div {
+  text-align: start;
+  margin-left: 5em;
+  padding-top: 3em;
+  line-height: 1.5em;
+}
+.container-3 div p {
+  margin-bottom: 4em;
 }
 /* container 4  */
-section.container-4{
-    margin-bottom: 5em;
-    line-height: 1.5em;
+section.container-4 {
+  margin-bottom: 5em;
+  line-height: 1.5em;
 }
-.container-4 .medium{
-    margin-bottom: 10px;
+.container-4 .medium {
+  margin-bottom: 10px;
 }
 /* container-5 */
-section.container-5{
-    margin: 2em 0;
-    line-height: 2em;
+section.container-5 {
+  margin: 2em 0;
+  line-height: 2em;
 }
 /* the cards */
-div.cards{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 2em;
+div.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
 }
-div.card{
-line-height: 1.5em;
+div.card {
+  line-height: 1.5em;
 }
-.icon{
-    margin-bottom: 1.5em;
+.icon {
+  margin-bottom: 1.5em;
 }
 /* company logos */
-div.clients{
-    display: flex;
-    justify-content:  space-around;
-    margin: 5em 0;
+div.clients {
+  display: flex;
+  justify-content: space-around;
+  margin: 5em 0;
 }
-div.clients img{
-    font-size: 70px;
+div.clients img {
+  font-size: 70px;
 }
 /* container-6  */
-section.container-6{
-    line-height: 1.5em;
-    margin-bottom: 3em;
-
+section.container-6 {
+  line-height: 1.5em;
 }
-.container-6 .medium{
-    margin-bottom: 9px;
+.container-6 .medium {
+  margin-bottom: 9px;
 }
 /* The footer  containing the links */
-footer.links{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    height: 20%;
-    background-color: hsl(201, 11%, 95%);
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
+footer.links {
+  background-color: hsl(201, 11%, 95%);
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.other-page:hover {
+  text-decoration: underline;
+}
+.site-logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+footer div.other-links a {
+  text-decoration: none;
+  color: hsl(200, 4%, 27%);
+  padding: 20px;
+}
+div.other-links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  /* justify-items: center; */
+}
+a.other-page {
+  display: grid;
+  justify-self: start;
+}
+div.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+div .social {
+  margin: 1em;
+}
+.social:hover {
+  border: 1px solid hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+div.attribution {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-}
-.other-page:hover{
-    text-decoration: underline;
-}
-.site-logo{
-    display: flex;
-    width: 50px;
-    height: 50px;
-}
-footer div.other-links a{
-    text-decoration: none;
-    color:  hsl(200, 4%, 27%);
-    padding: 20px;
-}
-div.other-links{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    /* justify-items: center; */
-}
-a.other-page{
-    display: grid;
-    justify-self: start;
-}
-div.social-links{
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-
-}
-div .social{
-    margin: 1em;
-}
-.social:hover{ 
-border: 1px solid hsl(171, 66%, 44%) ;
-    cursor: pointer;
-}
-div.attribution{
-    justify-self: center;
-}
-
+/* *******MOBILE VIEW********  */
