@@ -185,4 +185,40 @@ div.attribution {
 
 /* *******MOBILE VIEW********  */
 @media screen and (max-width: 480px) {
+  section.container-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8em;
+  }
+  /* the cards */
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2em;
+  }
+  /* company logos */
+  div.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5em 0;
+  }
+  div.clients img {
+    font-size: 40px;
+    margin: 20px auto;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer.links {
+    padding: 10px 20px;
+  }
+  div.social-links {
+    display: flex;
+    margin: auto;
+  }
 }
