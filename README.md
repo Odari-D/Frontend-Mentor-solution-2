@@ -18,6 +18,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Media queries
 - Mobile-first workflow
 ## Author
 
